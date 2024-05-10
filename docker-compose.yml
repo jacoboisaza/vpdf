@@ -1,0 +1,13 @@
+services:
+
+  fe:
+    restart: always
+    build:
+      context: ./
+      dockerfile: ./fe/Dockerfile
+    ports:
+    - mode: host
+      target: 80 # Container port
+      published: 8000 # Host port
+    profiles:
+      - vpdf
