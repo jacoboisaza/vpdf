@@ -13,6 +13,8 @@
     "vuetify": "^3.5.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11",
     "@vitejs/plugin-vue": "^5.0.4",
     "sass": "^1.71.1",
     "unplugin-fonts": "^1.1.1",
