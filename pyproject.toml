@@ -1,0 +1,3 @@
+[tool.ruff]
+line-length = 100         # A bit more than the default because screen sizes are bigger now
+exclude = ["__init__.py"] # Do not sort init files because the order matters

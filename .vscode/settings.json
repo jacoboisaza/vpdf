@@ -1,0 +1,54 @@
+{
+  "files.encoding": "utf8",
+  "files.exclude": {
+    "**/venv": true,
+    "**/.venv": true,
+    "**/__pycache__": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/test-results/": true,
+    "**/playwright-report/": true,
+    "**/blob-report/": true,
+    "**/playwright/.cache/": true
+  },
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "[javascript][vue][json][jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnPaste": false,
+    "editor.renderWhitespace": "trailing",
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "python.envFile": "${workspaceFolder}/be/.env",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
+  "python.testing.pytestArgs": ["."],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "git.autofetch": true,
+  "cSpell.words": [
+    "vpdf",
+    "backref",
+    "fastapi",
+    "sqlalchemy",
+    "sqlmodel",
+    "axios",
+    "vuetify"
+  ],
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "${userHome}/.oh-my-zsh",
+      "args": ["ssh-add --apple-use-keychain ~/.ssh/id_rsa"]
+    }
+  }
+}
