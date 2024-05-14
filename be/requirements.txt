@@ -1,0 +1,14 @@
+sqlmodel
+fastapi
+uvicorn
+psycopg2-binary
+pyjwt
+python-dotenv
+cryptography
+python-multipart
+pytest
+pytest-env
+pytest-dotenv
+pytest-dependency
+httpx
+ruff
